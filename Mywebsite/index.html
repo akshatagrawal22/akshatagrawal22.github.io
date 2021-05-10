@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akshat Agrawal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="favicon.ico">
     <style>
         html {
@@ -110,6 +111,43 @@
             width: 3.5rem;
         }
 
+        .centrediv {
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        a {
+            height: 3.1rem;
+            width: 3.1rem;
+            background-color: #f5f6fa;
+            border-radius: 5rem;
+            text-align: center;
+            margin: 1rem;
+            line-height: 4rem;
+            box-shadow: 0.03rem .12rem 0.06rem .06rem #dcdde1;
+        }
+
+        a i {
+            transition: all 0.3s linear;
+        }
+
+        a:hover i {
+            transform: scale(1.2);
+        }
+
+        .fa-instagram {
+            color: #FF00FF;
+        }
+
+        .fa-linkedin {
+            color: #0077b5;
+        }
+
+        .fa-google {
+            color: rgb(212, 70, 56);
+        }
+
         #middle:before {
             right: 0.2em;
             margin-left: -50%;
@@ -136,13 +174,27 @@
 
 <body>
 
-    <header class="container">
+    <!-- <header class="container">
         <ul>
             <li><a href="">HOME</a> </li>
             <li><a href="">ABOUT</a> </li>
             <!-- <li><a href="">SERVICES</a> </li> -->
-            <li><a href="mailto:akshat.agrawal22@gmail.com">CONTACT ME</a> </li>
+    <!-- <li><a href="mailto:akshat.agrawal22@gmail.com">CONTACT ME</a> </li>
         </ul>
+    </header> --> -->
+    <header>
+        <div class="centrediv">
+            <a href="mailto:akshat.agrawal22@gmail.com" target="_blank">
+                <i class="fa fa-2x fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/akshat.agrwl/" target="_blank">
+                <i class="fa fa-2x fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/akshat-agrawal-174312201
+            " target="_blank">
+                <i class="fa fa-2x fa-linkedin"></i>
+            </a>
+        </div>
     </header>
 
     <img src="my_photo.jpg" width="200" height="200">
