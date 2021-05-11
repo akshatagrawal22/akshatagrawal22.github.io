@@ -1,2 +1,2 @@
-# akshatagrawal22.github.io
+# Personal website
 Very basic personal website
