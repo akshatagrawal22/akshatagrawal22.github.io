@@ -22,7 +22,7 @@
         img {
             border-radius: 100rem;
             display: block;
-            margin: 5rem auto;
+            margin: 9rem auto;
             margin-bottom: 0rem;
         }
 
@@ -111,42 +111,6 @@
             width: 3.5rem;
         }
 
-        .centrediv {
-            height: 5rem;
-            display: flex;
-            justify-content: center;
-        }
-
-        a {
-            height: 3.1rem;
-            width: 3.1rem;
-            background-color: #f5f6fa;
-            border-radius: 5rem;
-            text-align: center;
-            margin: 1rem;
-            line-height: 4rem;
-            box-shadow: 0.06rem .24rem 0.12rem .12rem #a8acbe;
-        }
-
-        a i {
-            transition: all 0.3s linear;
-        }
-
-        a:hover i {
-            transform: scale(1.2);
-        }
-
-        .fa-instagram {
-            color: #FF00FF;
-        }
-
-        .fa-linkedin {
-            color: #0077b5;
-        }
-
-        .fa-google {
-            color: rgb(212, 70, 56);
-        }
 
         #middle:before {
             right: 0.2em;
@@ -169,6 +133,66 @@
                 font-size: 45%;
             }
         }
+
+        h1 {
+            text-align: center;
+            visibility: hidden;
+        }
+
+        .social-menu ul {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .social-menu ul li {
+            list-style: none;
+            margin: 20rem 1rem;
+        }
+
+        .social-menu ul li .fa {
+            color: #000000;
+            font-size: 2.5rem;
+            line-height: 5rem;
+            transition: .5s;
+        }
+
+        .social-menu ul li .fa:hover {
+            color: #ffffff;
+        }
+
+        .social-menu ul li a {
+            position: relative;
+            display: block;
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            background-color: white;
+            text-align: center;
+            transition: 0.5s;
+            transform: translate(0, 0rem);
+            box-shadow: 0rem .7rem .5rem rgba(0, 0, 0, 0.5);
+        }
+
+        .social-menu ul li a:hover {
+            transform: rotate(0deg) skew(0deg) translate(0, -1rem);
+        }
+
+        .social-menu ul li:nth-child(1) a:hover {
+            background-color: rgb(212, 70, 56);
+        }
+
+        .social-menu ul li:nth-child(2) a:hover {
+            background-color: #6e5494;
+        }
+
+        .social-menu ul li:nth-child(3) a:hover {
+            background-color: #0077B5;
+        }
     </style>
 </head>
 
@@ -183,17 +207,15 @@
         </ul>
     </header> --> -->
     <header>
-        <div class="centrediv">
-            <a href="mailto:akshat.agrawal22@gmail.com" target="_blank">
-                <i class="fa fa-2x fa-google"></i>
-            </a>
-            <a href="https://www.instagram.com/akshat.agrwl/" target="_blank">
-                <i class="fa fa-2x fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/akshat-agrawal-174312201
-            " target="_blank">
-                <i class="fa fa-2x fa-linkedin"></i>
-            </a>
+        <div class="social-menu">
+            <h1>vdfvcdcd</h1>
+            <ul>
+                <li><a href="mailto:akshat.agrawal22@gmail.com" target="_blank"><i class="fa fa-google"></i></a></li>
+                <li><a href="https://github.com/akshatagrawal22" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/akshat-agrawal-174312201
+                    " target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
         </div>
     </header>
 
